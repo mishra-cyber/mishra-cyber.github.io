@@ -1,50 +1,54 @@
-<h1 align="center">welcome to my portfolio 👋</h1>
+<h1 align="center">Welcome to My Portfolio 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-3.1.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/open-devs/fastify-typescript-generator/graphs/commit-activity" target="_blank">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/mishra-cyber/portfolio/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained-yes-blue.svg" />
   </a>
-  <a href="https://github.com/open-devs/fastify-typescript-generator/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/open-devs/fastify-typescript-generator" />
+  <a href="https://github.com/mishra-cyber/portfolio/blob/master/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/mishra-cyber/portfolio" />
   </a>
 </p>
 
-### 🏠 [homepage](https://alok722.github.io/)
+### 🏠 [Homepage](https://mishra-cyber.github.io/)
 
-## install
+## Install
 
 ```sh
-git clone https://github.com/alok722/alok722.github.io.git
+git clone https://github.com/mishra-cyber/portfolio.git
 ```
 
-## usage
+## Usage
 
 ```sh
 open index.html
 ```
 
-## ❓ what is it
+## ❓ What is it
 
-a webpage to showcase my experience, education, skill-set, projects, certificates, achievements and recommendations.
+A portfolio website showcasing my experience as a Ruby on Rails Developer & AWS Certified Solutions Architect, including my projects, certifications, and professional journey.
 
-## 👤 author
+## 👤 Author
 
-**alok raj (alokr417@gmail.com)**
+**Aditya Mishra (adityamishra102000@gmail.com)**
 
-- website: https://alok722.github.io/
-- linkedin: [@alok722](https://linkedin.com/in/alok722)
+- Website: https://mishra-cyber.github.io/
+- LinkedIn: [@aditya-mishra-3b7099192](https://www.linkedin.com/in/aditya-mishra-3b7099192/)
+- GitHub: [@mishra-cyber](https://github.com/mishra-cyber)
+- Medium: [@adityamishra102000](https://medium.com/@adityamishra102000)
 
-## 🚀 future scope
+## 🚀 Future Scope
 
-- adding blog section
-- adding contact me section
+- Adding blog integration with Medium
+- Adding dynamic project showcase
+- Implementing contact form
+- Adding dark mode toggle animation
 
-## show your support
+## Show Your Support
 
-give a ⭐️ if you are using this template for your webpage.
+Give a ⭐️ if you like this portfolio template!
 
-## 📝 license
+## 📝 License
 
-This project is [MIT](https://github.com/alok722/alokraj/blob/master/LICENSE) licensed.
+This project is [MIT](https://github.com/mishra-cyber/portfolio/blob/master/LICENSE) licensed.
 
 ---

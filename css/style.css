@@ -14,13 +14,18 @@
 mark {
   color: black;
   background-color: yellow;
+  transition: all 0.3s ease;
+  padding: 2px 5px;
+  border-radius: 3px;
 }
 
 mark:hover {
   color: black !important;
-  background-color: yellow !important;
+  background-color: #ffeb3b !important;
   cursor: pointer;
   -webkit-text-fill-color: black;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 /* Text selection End */
@@ -67,6 +72,24 @@ mark:hover {
   text-transform: uppercase;
   padding: 1.7rem;
   color: var(--title-color);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.header_area .main-menu .nav-item .nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background: var(--gradient-color);
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.header_area .main-menu .nav-item .nav-link:hover::after {
+  width: 80%;
 }
 
 .header_area .main-menu .navbar-nav .active a {
@@ -677,3 +700,73 @@ input:checked+.slider:before {
 .dark #subheading {
   color: #f4e964;
 }
+
+/* Certificate title styles */
+.our-project .title h4 {
+    font-size: 1.1rem;  /* Slightly larger font */
+    line-height: 1.2;
+    min-height: 30px;  /* Reduced height since titles are shorter */
+    margin-bottom: 8px;
+    word-wrap: normal;  /* Changed from break-word */
+    padding: 0 8px;
+    display: block;
+    overflow: visible;
+    font-weight: 600;  /* Make it slightly bolder */
+    letter-spacing: 0.5px;  /* Better letter spacing */
+}
+
+.our-project .title span.text-secondary {
+    font-size: 0.9rem;
+    color: #6c757d;
+    display: block;
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+.our-project .title {
+    text-align: center;
+    padding: 1rem !important;
+    height: auto;  /* Allow natural height */
+}
+
+.our-project {
+    margin-bottom: 30px;
+}
+
+/* Optional: Add a background to make text more readable */
+.our-project .title {
+    background-color: #f8f9fa;
+    border-radius: 0 0 8px 8px;
+}
+
+/* Dark mode support */
+.dark .our-project .title {
+    background-color: #2d3238;
+}
+
+.our-project .img {
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.our-project .img img {
+    transition: transform 0.3s ease;
+}
+
+.our-project:hover .img img {
+    transform: scale(1.05);
+}
+
+/* Add these styles for the filter buttons */
+.button-group button {
+    transition: all 0.3s ease;
+    font-weight: normal;
+    color: var(--text-color) !important;
+}
+
+.button-group button.active {
+    color: #007bff !important;
+    font-weight: bold !important;
+}
+
+/* Remove the inline style from the ALL button in HTML */
