@@ -20,6 +20,7 @@ Collaborated in a team environment to deploy new features and enhance existing f
 Improved data management processes and optimized API efficiency.
 
 
+
 🚀 Projects
 Honest Elevator
 Developed RESTful APIs for managing service requests, technician assignments, and invoicing.
